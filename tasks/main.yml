@@ -1,0 +1,7 @@
+---
+- name: Ensure termite.terminfo is downloaded
+  get_url:
+    url: https://raw.githubusercontent.com/thestinger/termite/master/termite.terminfo
+    dest: "{{ termite_terminfo_path }}"
+    mode: 0644
+  notify: install termite.terminfo

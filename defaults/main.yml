@@ -1,0 +1,2 @@
+---
+termite_terminfo_path: "{{ ansible_env.HOME }}/.termite.terminfo"

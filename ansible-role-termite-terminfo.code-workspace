@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.yml": "ansible"
+		},
+		"editor.tabSize": 2,
+	}
+}
